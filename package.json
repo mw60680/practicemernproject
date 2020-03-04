@@ -1,11 +1,13 @@
 {
   "name": "devconnector",
   "version": "1.0.0",
-  "description": "social network for developers, npm install express express-validator bcryptjs config gravatar jsonwebtoken mongoose request, npm install -D nodemon concurrently",
+  "description": "social network for developers, npm install express express-validator bcryptjs config gravatar jsonwebtoken mongoose request, npm install -D nodemon concurrently, npm install axios react-router-dom redux react-redux redux-thunk redux-devtools-extension moment react-moment",
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "server": "nodemon server"
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "Mahesh",
   "license": "ISC",
