@@ -1,4 +1,4 @@
 {
-  "mongoURI": "***REMOVED***",
-  "jwtSecret": "***REMOVED***"
+  "mongoURI": "mongodb+srv://mahesh123:mahesh123@merndevconnector-4cetf.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken"
 }
